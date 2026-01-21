@@ -41,8 +41,10 @@ Generate recommendations based on your favorite movies (recommend.py).
 
 ## Dataset
 
-This project uses a movie dataset collected from **FZMovies** which includes movies across different genres, along with metadata such as:
-
+This project uses a movie dataset collected from **FZMovies**  which includes movies across different genres, along with metadata such as:
+```
+https://github.com/Simatwa/movies-dataset.git
+```
 - **Title**  
 - **Genre**  
 - **Year of release**  
