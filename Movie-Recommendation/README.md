@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-# Mini-Projects
-
-This repository contains a collection of **small projects** I work on in my free time to keep my programming skills sharp, explore new technologies, and experiment with ideas. Each project is organized into its own folder with its code, dependencies, and instructions.
-
-## Current Projects
-
-- **Emotion Detection**: Real-time emotion detection using **FER** and **OpenCV**. Detects emotions on faces from a webcam feed and displays the emotion with a confidence score.
-
-> More projects will be added over time as I continue learning and experimenting.
-
-## Project Structure
-```
-Mini-Projects
-└── emotion-detection
-    ├── main.py
-    ├── requirements.txt
-    └── README.md
-```
-=======
 # Movie Recommender System
 
 This project is a simple **content-based movie recommendation system**. It uses **TF-IDF** on movie titles, genres, and descriptions to recommend movies similar to the ones you like. The project includes scripts to **train the model** and **generate recommendations automatically**.
@@ -72,4 +52,3 @@ my_favorites = [
     "Avatar The Way of Water"
 ]
 ```
->>>>>>> 6976436 (Initial Commit)
