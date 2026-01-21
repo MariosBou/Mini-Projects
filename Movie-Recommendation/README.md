@@ -39,7 +39,24 @@ Train the TF-IDF model on the deduplicated movies from the database (train.py).
 
 Generate recommendations based on your favorite movies (recommend.py).
 
-Usage
+## Dataset
+
+This project uses a movie dataset collected from **FZMovies** which includes movies across different genres, along with metadata such as:
+
+- **Title**  
+- **Genre**  
+- **Year of release**  
+- **Description / synopsis**  
+- **URLs for streaming and cover images**
+
+The database `combined.db` consolidates CSVs from multiple genres (e.g., Adventure, Action, etc.) into a single SQLite database for easier processing.  
+
+
+
+
+
+
+## Usage
 
 Add your favorite movies in recommend.py under the my_favorites list.
 The system will calculate similarity scores and print the top 10 recommended movies, excluding your favorites.
